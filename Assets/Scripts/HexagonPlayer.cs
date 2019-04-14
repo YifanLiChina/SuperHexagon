@@ -15,7 +15,7 @@ public class HexagonPlayer : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
-		Debug.Log(m_movement);
+		// Debug.Log(m_movement);
 		transform.RotateAround(Vector3.zero, Vector3.forward, m_movement * Time.fixedDeltaTime * -moveSpeed);
 	}
 
